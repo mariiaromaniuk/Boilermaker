@@ -1,0 +1,10 @@
+1. INTRO
+   Create your project folder. npm init, git init, and make a .gitignore file.
+   
+   Make sure that your .gitignore lists your node_modules directory and your bundled client javascript file (if you're using a module builder like webpack). 
+
+   If you're wondering why we're ignoring bundle.js, it's because it will become a fairly large file that will always change. Instead of git tracking it, we can ignore it and either build it before setting it up on our production server (or have our production server build it).
+
+2. REACT
+   
+   
